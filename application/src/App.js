@@ -1,9 +1,13 @@
 import React from 'react';
 import Header from './components/Header/Header';
+import Jumbotron from "./components/Jumbotron/Jumbotron"
 
 function App() {
   return (
-    <Header/>
+    <div className="wrapper">
+      <Header/>
+      <Jumbotron/>
+    </div>
   );
 }
 
