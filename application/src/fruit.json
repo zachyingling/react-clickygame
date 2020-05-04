@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "name": "Apple",
+    "image": "https://lh3.googleusercontent.com/proxy/Uh1fwm5OHg3wViyBoSi3jA0VGhZU-NGuJpaSI3DSeFYky8Pf6bPAXSTYhHZY8UvujAxTUGxL7JUoEvfCVzSL5PriTgCSqA_WXob3ff_4YPYdWQ6cyA8MDyA7pKTXCucD0HT0kuPDG9HlAFZg0FbnyE-e7j-WVDJXPZXPZlzQOHpp27EBzRc"
+  },
+  {
+    "id": 2,
+    "name": "Banana",
+    "image": "https://lh3.googleusercontent.com/proxy/i6uLqrT4mEBymatXzPqXY2Vfa9z8TZMdlAJyeWx2fdoVGHFigEFPuAxilPaZTp5KwjWkm5IoQkoL_jchHOLvPrHm5FQ0AIR6oTRNTiWF4W0XuZDiW9OWfrvhmnkTTmdZKSRMYGU"
+  },
+  {
+    "id": 3,
+    "name": "Strawberry",
+    "image": "https://www.pngfind.com/pngs/m/341-3413414_sliced-strawberry-transparent-background-hd-png-download.png"
+  },
+  {
+    "id": 4,
+    "name": "Blueberry",
+    "image": "https://lh3.googleusercontent.com/proxy/RZSfQwJW85QZnGgMu3F8iE7ATzy6TQrHu_jG08CsdtXsExZ_BxH5uyiOCOBoIIViytFPgnnBT1StzubkLxtHkuvEuoTFTsUNW3yA8X6ZlgXutydTlr_dQuRK"
+  },
+  {
+    "id": 5,
+    "name": "Grapes",
+    "image": "https://www.pngfind.com/pngs/m/323-3236309_grape-png-transparent-images-green-grapes-png-png.png"
+  },
+  {
+    "id": 6,
+    "name": "Pineapple",
+    "image": "https://lh3.googleusercontent.com/proxy/LAADUybf6S6XE0kqlPBRLabyOJz9B0b_MqMetDmAY_oahi7hJfVjOzf_N-fBczsVOOkmtrVoUCJiI9Evfu2UYgAfRAWJ6iD9LnnBXLduNPf5ybHZ7_Y6vmIqcAk5038eqO-9JiX3aNCQuCkFVa0"
+  },
+  {
+    "id": 7,
+    "name": "Raspberry",
+    "image": "https://pluspng.com/img-png/raspberry-png-raspberry-transparent-png-636.png"
+  },
+  {
+    "id": 8,
+    "name": "Kiwi",
+    "image": "https://lh3.googleusercontent.com/proxy/dm3A4wC2qJj2Nudyf1xQufXgWUq7pwFmO8-Uqwzy6S4erEFiecyUHlfip39x_Ghpwkg-k4kgzK4e3Bnjk9iSwqnPN4MzX5ZbbABEPnfNRrc77gCPX1GIUrveOVdA8sk54e4G"
+  }
+]
