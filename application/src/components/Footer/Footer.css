@@ -1,0 +1,15 @@
+footer {
+  background-color: greenyellow;
+  width: 100%;
+  height: 70px;
+}
+
+h1 {
+  float: left;
+}
+
+a {
+  color: teal;
+  font-size: 2rem;
+  margin-left: 50px;
+}
