@@ -3,7 +3,7 @@ header {
   top: 0px;
   width: 100%;
   height: 100px;
-  background-color: green;
+  background-color: rgba(122, 4, 33, 0.897);
   z-index: 5;
 }
 

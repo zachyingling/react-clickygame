@@ -8,7 +8,8 @@ import "./App.css"
 
 class App extends Component {
   state = {
-    fruits
+    fruits: fruits,
+    selected: []
   };
 
   render() {
