@@ -11,8 +11,6 @@ class App extends Component {
     fruits
   };
 
-
-
   render() {
     return (
       <div className="wrapper">

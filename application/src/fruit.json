@@ -38,5 +38,44 @@
     "id": 8,
     "name": "Kiwi",
     "image": "https://lh3.googleusercontent.com/proxy/JGv2hLqLAHxRz4LIoPTzb4FkSQr7kDqQ2UXnUO75Vr0fIRB-8e1FrHxgmjduxAlFthKkaF_CdYtYzCZcK6ZUB3yo2L1VqYDpLZKfIOyCoXvBoIaCLt7Cmvtv1jNn7A0AirH7"
+  },{
+    "id": 9,
+    "name": "Apple",
+    "image": "https://lh3.googleusercontent.com/proxy/VWHKsOD_yQxtfAOt76pLcK2BWfsWw_2DpSFbY1neoVyidcuWTxUZy7c65jEsmSDb1-FY7v-1Y_uFFHxQ6MarycWy"
+  },
+  {
+    "id": 10,
+    "name": "Banana",
+    "image": "https://lh3.googleusercontent.com/proxy/8PVXVf_qftiTKG1Dh8M3EJ628WEVH8njMK86wqW5mr2YtSQlI3obUx_DY9vIuO29rO4s8MhfNDtSmVEaqbqnQJJAq-gphYCVPdFawcUD3lVQNjm7GSJP"
+  },
+  {
+    "id": 11,
+    "name": "Strawberry",
+    "image": "https://www.pngfind.com/pngs/m/341-3413414_sliced-strawberry-transparent-background-hd-png-download.png"
+  },
+  {
+    "id": 12,
+    "name": "Blueberry",
+    "image": "https://lh3.googleusercontent.com/proxy/w_kjNq0KrbnrSvZ-Q2HK6uLbLfcUjfXMzvgxTIUX1fsU-lBhnle-PBOI3c94U_CQqx8NbGtq8sGxIZhsC_3897B79Gj3O3BWGq6_qyrAzFdFO708Numv6Yw7"
+  },
+  {
+    "id": 13,
+    "name": "Grapes",
+    "image": "https://www.pngfind.com/pngs/m/323-3236309_grape-png-transparent-images-green-grapes-png-png.png"
+  },
+  {
+    "id": 14,
+    "name": "Pineapple",
+    "image": "https://www.pngfind.com/pngs/m/47-477092_pineapple-png-background-transparent-png.png"
+  },
+  {
+    "id": 15,
+    "name": "Raspberry",
+    "image": "https://pluspng.com/img-png/raspberry-png-raspberry-transparent-png-636.png"
+  },
+  {
+    "id": 16,
+    "name": "Kiwi",
+    "image": "https://lh3.googleusercontent.com/proxy/JGv2hLqLAHxRz4LIoPTzb4FkSQr7kDqQ2UXnUO75Vr0fIRB-8e1FrHxgmjduxAlFthKkaF_CdYtYzCZcK6ZUB3yo2L1VqYDpLZKfIOyCoXvBoIaCLt7Cmvtv1jNn7A0AirH7"
   }
 ]

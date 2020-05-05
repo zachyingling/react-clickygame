@@ -2,8 +2,6 @@ import React from "react";
 import "./FruitCard.css";
 
 function FruitCard (props) {
-  console.log(props);
-
   return (
     <div className="card" id="cardMain">
       <div className="img-container">
