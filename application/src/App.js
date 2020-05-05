@@ -2,17 +2,23 @@ import React, { Component } from 'react';
 import Header from './components/Header/Header';
 import Jumbotron from "./components/Jumbotron/Jumbotron";
 import Footer from "./components/Footer/Footer";
-import Container from "./components/Container/Container";
+import fruits from "./fruit.json";
 
 class App extends Component {
+  state = {
+    fruits
+  };
+
   render() {
     return (
       <div className="wrapper">
         <Header/>
         <Jumbotron/>
-        <Container>
-        
-        </Container>
+        <div className="container">
+          <div className="row">
+            <h1>Hello</h1>
+          </div>
+        </div>
         <Footer/>
       </div>
     );
