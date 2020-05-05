@@ -2,12 +2,12 @@
   {
     "id": 1,
     "name": "Apple",
-    "image": "https://lh3.googleusercontent.com/proxy/Uh1fwm5OHg3wViyBoSi3jA0VGhZU-NGuJpaSI3DSeFYky8Pf6bPAXSTYhHZY8UvujAxTUGxL7JUoEvfCVzSL5PriTgCSqA_WXob3ff_4YPYdWQ6cyA8MDyA7pKTXCucD0HT0kuPDG9HlAFZg0FbnyE-e7j-WVDJXPZXPZlzQOHpp27EBzRc"
+    "image": "https://lh3.googleusercontent.com/proxy/VWHKsOD_yQxtfAOt76pLcK2BWfsWw_2DpSFbY1neoVyidcuWTxUZy7c65jEsmSDb1-FY7v-1Y_uFFHxQ6MarycWy"
   },
   {
     "id": 2,
     "name": "Banana",
-    "image": "https://lh3.googleusercontent.com/proxy/i6uLqrT4mEBymatXzPqXY2Vfa9z8TZMdlAJyeWx2fdoVGHFigEFPuAxilPaZTp5KwjWkm5IoQkoL_jchHOLvPrHm5FQ0AIR6oTRNTiWF4W0XuZDiW9OWfrvhmnkTTmdZKSRMYGU"
+    "image": "https://lh3.googleusercontent.com/proxy/8PVXVf_qftiTKG1Dh8M3EJ628WEVH8njMK86wqW5mr2YtSQlI3obUx_DY9vIuO29rO4s8MhfNDtSmVEaqbqnQJJAq-gphYCVPdFawcUD3lVQNjm7GSJP"
   },
   {
     "id": 3,
@@ -17,7 +17,7 @@
   {
     "id": 4,
     "name": "Blueberry",
-    "image": "https://lh3.googleusercontent.com/proxy/RZSfQwJW85QZnGgMu3F8iE7ATzy6TQrHu_jG08CsdtXsExZ_BxH5uyiOCOBoIIViytFPgnnBT1StzubkLxtHkuvEuoTFTsUNW3yA8X6ZlgXutydTlr_dQuRK"
+    "image": "https://lh3.googleusercontent.com/proxy/w_kjNq0KrbnrSvZ-Q2HK6uLbLfcUjfXMzvgxTIUX1fsU-lBhnle-PBOI3c94U_CQqx8NbGtq8sGxIZhsC_3897B79Gj3O3BWGq6_qyrAzFdFO708Numv6Yw7"
   },
   {
     "id": 5,
@@ -27,7 +27,7 @@
   {
     "id": 6,
     "name": "Pineapple",
-    "image": "https://lh3.googleusercontent.com/proxy/LAADUybf6S6XE0kqlPBRLabyOJz9B0b_MqMetDmAY_oahi7hJfVjOzf_N-fBczsVOOkmtrVoUCJiI9Evfu2UYgAfRAWJ6iD9LnnBXLduNPf5ybHZ7_Y6vmIqcAk5038eqO-9JiX3aNCQuCkFVa0"
+    "image": "https://www.pngfind.com/pngs/m/47-477092_pineapple-png-background-transparent-png.png"
   },
   {
     "id": 7,
@@ -37,6 +37,6 @@
   {
     "id": 8,
     "name": "Kiwi",
-    "image": "https://lh3.googleusercontent.com/proxy/dm3A4wC2qJj2Nudyf1xQufXgWUq7pwFmO8-Uqwzy6S4erEFiecyUHlfip39x_Ghpwkg-k4kgzK4e3Bnjk9iSwqnPN4MzX5ZbbABEPnfNRrc77gCPX1GIUrveOVdA8sk54e4G"
+    "image": "https://lh3.googleusercontent.com/proxy/JGv2hLqLAHxRz4LIoPTzb4FkSQr7kDqQ2UXnUO75Vr0fIRB-8e1FrHxgmjduxAlFthKkaF_CdYtYzCZcK6ZUB3yo2L1VqYDpLZKfIOyCoXvBoIaCLt7Cmvtv1jNn7A0AirH7"
   }
 ]
