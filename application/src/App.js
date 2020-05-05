@@ -25,7 +25,11 @@ class App extends Component {
       if (this.state.selected[0] === this.state.selected[1]) {
         // A Match
         const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0]);
-        this.setState({selected: [], fruits: tempFruits});
+        if(tempFruits.length === 0){
+          this.setState({selected: [], fruits: fruits});
+        } else {
+          this.setState({selected: [], fruits: tempFruits});
+        }
       } else {
         // Not a match
         this.setState({selected: []});
