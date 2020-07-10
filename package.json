@@ -1,21 +1,35 @@
 {
-  "name": "react-clickygame",
-  "version": "1.0.0",
-  "description": "## Description This application you have to pick cards and match them. When you match all the cards, the game is over and it restarts.",
-  "main": "index.js",
+  "name": "application",
+  "homepage": "https://react-clickygame-zpy.herokuapp.com/",
+  "version": "0.1.1",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "3.4.1"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run install && npm run build && npm run client",
-    "client": "cd application && npm run start",
-    "install": "cd application && npm install",
-    "build": "cd application && npm run build",
-    "heroku-postbuild": "npm run build"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/zachyingling/react-clickygame"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
 }
