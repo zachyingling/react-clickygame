@@ -6,12 +6,6 @@ import FruitCard from "./components/FruitCard/FruitCard";
 import fruits from "./fruit.json";
 import "./App.css";
 
-// const handleMatch = (name) => {
-//   const result = this.state.fruits.filter(fruit => fruit.name !== name);
-
-//   return result;
-// };
-
 class App extends Component {
   state = {
     fruits: fruits,
