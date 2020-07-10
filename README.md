@@ -9,4 +9,4 @@ This application you have to pick cards and match them. When you match all the c
 * React
 
 ### Link
-https://zachyingling.github.io/react-clickygame/
+https://react-clickygame.netlify.app/
