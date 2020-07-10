@@ -12,13 +12,17 @@ class App extends Component {
     selected: []
   };
 
-  handleSelected = e => {
-    this.state.selected.push(e);
+  handleSelected = (name, id) => {
+    let clickedFruit = {
+      fruitId: id,
+      fruitName: name
+    };
+    this.state.selected.push(clickedFruit);
 
     if(this.state.selected.length === 2){
-      if (this.state.selected[0] === this.state.selected[1]) {
-        // A Match
-        const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0]);
+      if (this.state.selected[0].fruitName === this.state.selected[1].fruitName) {
+        console.log("A Match");
+        const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0].fruitName);
         if(tempFruits.length === 0){
           this.setState({selected: [], fruits: fruits});
         } else {
@@ -40,6 +44,7 @@ class App extends Component {
           <div className="row">
             {this.state.fruits.map(fruit => (
               <FruitCard
+                id={fruit.id}
                 key={fruit.id}
                 name={fruit.name}
                 image={fruit.image}
