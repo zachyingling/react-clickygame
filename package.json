@@ -1,0 +1,16 @@
+{
+  "name": "react-clickygame",
+  "version": "1.0.0",
+  "description": "## Description This application you have to pick cards and match them. When you match all the cards, the game is over and it restarts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "zachyingling:027d49c804628c1d40fba03c6aac11e650290491@github.com/zachyingling/react-clickygame"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
