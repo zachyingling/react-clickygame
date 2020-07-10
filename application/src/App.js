@@ -12,6 +12,7 @@ class App extends Component {
     selected: []
   };
 
+  // Function is called everytime a fruit card is clicked
   handleSelected = (name, id) => {
     let clickedFruit = {
       fruitId: id,
@@ -19,19 +20,28 @@ class App extends Component {
     };
     this.state.selected.push(clickedFruit);
 
+    // Makes sure two fruits are selected
     if(this.state.selected.length === 2){
+      // Checks if the two fruits clicked on page have the same names
       if (this.state.selected[0].fruitName === this.state.selected[1].fruitName) {
-        console.log("A Match");
-        const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0].fruitName);
-        if(tempFruits.length === 0){
-          this.setState({selected: [], fruits: fruits});
+        if(this.state.selected[0].fruitId !== this.state.selected[1].fruitId){
+          const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0].fruitName);
+          // Checks if there are anymore rendered fruits left on the page
+          if(tempFruits.length === 0){
+            return this.setState({selected: [], fruits: fruits});
+          } else {
+            return this.setState({selected: [], fruits: tempFruits});
+          }
         } else {
-          this.setState({selected: [], fruits: tempFruits});
+          // Not a match
+          return this.setState({selected: []});
         }
       } else {
         // Not a match
-        this.setState({selected: []});
+        return this.setState({selected: []});
       }
+    } else {
+      return false;
     }
   };
 

@@ -3,7 +3,7 @@ import "./FruitCard.css";
 
 function FruitCard (props) {
   return (
-    <div className="card" id="cardMain" onClick={() => props.handleSelected(props.name)}>
+    <div className="card" id="cardMain" onClick={() => props.handleSelected(props.name, props.id)}>
       <div className="img-container">
         <img alt={props.name} src={process.env.PUBLIC_URL + "/" + props.image} height="150" width="170"/>
       </div>
