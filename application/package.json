@@ -1,6 +1,6 @@
 {
   "name": "application",
-  "homepage": "https://zachyingling.github.io/react-clickygame/",
+  "homepage": "https://react-clickygame-zpy.herokuapp.com/",
   "version": "0.1.1",
   "private": true,
   "dependencies": {
