@@ -4,7 +4,8 @@
   "description": "## Description This application you have to pick cards and match them. When you match all the cards, the game is over and it restarts.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd application && npm run start"
   },
   "repository": {
     "type": "git",
