@@ -51,6 +51,8 @@ class App extends Component {
         // Not a match
         return this.setState({selected: []});
       }
+    } else if(this.state.selected.length >= 3) {
+      return this.setState({selected: []});
     } else {
       return false;
     }

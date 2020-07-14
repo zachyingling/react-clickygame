@@ -23,7 +23,7 @@ class FruitCard extends React.Component {
   frontCardClickFunction = () => {
     console.log(this.props.selected.length);
     this.handleClick();
-    setTimeout(this.timeoutMatchFunc, 2500);
+    setTimeout(this.timeoutMatchFunc, 1500);
   };
 
   timeoutMatchFunc = () => {
@@ -39,7 +39,7 @@ class FruitCard extends React.Component {
   render(){
     if(this.props.selected.length === 2) { 
       console.log("front flip card called");
-      setTimeout(this.handleFrontCardComponent, 900);
+      setTimeout(this.handleFrontCardComponent, 500);
     }
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
