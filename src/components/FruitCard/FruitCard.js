@@ -21,45 +21,35 @@ class FruitCard extends React.Component {
   };
 
   frontCardClickFunction = () => {
-    console.log(this.props);
+    console.log(this.props.selected.length);
     if(this.props.selected.length === 2) { 
       console.log("front flip card called");
       setTimeout(this.handleFrontCardComponent, 1000);
     } else {
       this.handleClick();
     }
-    setTimeout(this.timeoutSelectedFunc, 2000);
+    setTimeout(this.timeoutSelectedFunc, 5000);
   };
 
   timeoutSelectedFunc = () => {
     this.props.handleSelected(this.props.name, this.props.id);
   };
 
+  // After unselected the fruit it just call this function to flip the card over
   secondCardClickFunction = () => {
-    console.log(this.props);
-    if(this.props.selected.length === 2) { 
-      console.log("front flip card called");
-      setTimeout(this.handleFrontCardComponent, 1000);
-    } else {
-      this.handleClick();
-    }
-    setTimeout(this.timeoutUnselectedFunc, 2000);
+    this.handleClick();
   };
-
-  timeoutUnselectedFunc = () => {
-    this.props.handleUnselected(this.props.name, this.props.id);
-  }
 
   render(){
     return (
       <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-        <div className="card" id="cardMain" onClick={() => this.frontCardClickFunction()}>
+        <div className="card" id="cardMain" onClick={() => {this.props.handleSelected(this.props.name, this.props.id, this.frontCardClickFunction);}}>
           <div className="img-container">
             <img alt={this.props.name} src={process.env.PUBLIC_URL + "/front-of-poker-card.png"} height="150" width="170"/>
           </div>
         </div>
 
-        <div className="card" id="cardMain" onClick={() => this.secondCardClickFunction()}>
+        <div className="card" id="cardMain" onClick={() => {this.props.handleUnselected(this.props.name, this.props.id, this.secondCardClickFunction);}}>
           <div className="img-container">
             <img alt={this.props.name} src={process.env.PUBLIC_URL + "/" + this.props.image} height="150" width="170"/>
           </div>

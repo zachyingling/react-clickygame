@@ -12,12 +12,12 @@ class App extends Component {
     selected: []
   };
 
-  handleUnselected = (name, id) => {
-    this.setState({ selected: [] });
+  handleUnselected = (name, id, cb) => {
+    this.setState({ selected: [] }, cb);
   };
 
   // Function is called everytime a fruit card is clicked
-  handleSelected = (name, id) => {
+  handleSelected = (name, id, cb) => {
     let clickedFruit = {
       fruitId: id,
       fruitName: name
@@ -25,7 +25,7 @@ class App extends Component {
 
     const newStateArray = this.state.selected.slice();
     newStateArray.push(clickedFruit);
-    this.setState({selected: newStateArray});
+    return this.setState({selected: newStateArray}, cb);
   };
 
   handleMatch = () => {
@@ -70,6 +70,7 @@ class App extends Component {
                 image={fruit.image}
                 handleSelected={this.handleSelected}
                 handleUnselected={this.handleUnselected}
+                handleMatch={this.handleMatch}
                 selected={this.state.selected}
               />
             ))}
