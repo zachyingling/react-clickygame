@@ -26,7 +26,9 @@ class App extends Component {
     const newStateArray = this.state.selected.slice();
     newStateArray.push(clickedFruit);
     this.setState({selected: newStateArray});
+  };
 
+  handleMatch = () => {
     // Makes sure two fruits are selected
     if(this.state.selected.length === 2){
       // Checks if the two fruits clicked on page have the same names
