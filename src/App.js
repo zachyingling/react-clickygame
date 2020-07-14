@@ -9,7 +9,8 @@ import "./App.css";
 class App extends Component {
   state = {
     fruits: fruits,
-    selected: []
+    selected: [],
+    isFlipped: false
   };
 
   handleUnselected = (name, id, cb) => {
