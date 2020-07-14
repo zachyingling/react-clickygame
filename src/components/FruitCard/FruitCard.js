@@ -20,7 +20,7 @@ class FruitCard extends React.Component {
         <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
           <div className="card" id="cardMain" onClick={() => { this.props.handleSelected(this.props.name, this.props.id); this.handleClick();}}>
             <div className="img-container">
-              <img alt={this.props.name} src={process.env.PUBLIC_URL + "/" + this.props.image} height="150" width="170"/>
+              <img alt={this.props.name} src={process.env.PUBLIC_URL + "/front-of-poker-card.png"} height="150" width="170"/>
             </div>
           </div>
 
