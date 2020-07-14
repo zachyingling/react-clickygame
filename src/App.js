@@ -13,7 +13,7 @@ class App extends Component {
   };
 
   handleUnselected = (name, id, cb) => {
-    this.setState({ selected: [] }, cb);
+    return this.setState({ selected: [] }, cb);
   };
 
   // Function is called everytime a fruit card is clicked

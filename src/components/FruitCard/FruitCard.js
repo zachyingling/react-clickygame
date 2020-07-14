@@ -24,15 +24,16 @@ class FruitCard extends React.Component {
     console.log(this.props.selected.length);
     if(this.props.selected.length === 2) { 
       console.log("front flip card called");
+      this.handleClick();
       setTimeout(this.handleFrontCardComponent, 1000);
     } else {
       this.handleClick();
     }
-    setTimeout(this.timeoutSelectedFunc, 5000);
+    setTimeout(this.timeoutMatchFunc, 5000);
   };
 
-  timeoutSelectedFunc = () => {
-    this.props.handleSelected(this.props.name, this.props.id);
+  timeoutMatchFunc = () => {
+    this.props.handleMatch(this.props.name, this.props.id);
   };
 
   // After unselected the fruit it just call this function to flip the card over
