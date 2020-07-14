@@ -12,6 +12,10 @@ class App extends Component {
     selected: []
   };
 
+  handleUnselected = (name, id) => {
+    this.setState({ selected: [] });
+  };
+
   // Function is called everytime a fruit card is clicked
   handleSelected = (name, id) => {
     let clickedFruit = {
@@ -24,6 +28,7 @@ class App extends Component {
     if(this.state.selected.length === 2){
       // Checks if the two fruits clicked on page have the same names
       if (this.state.selected[0].fruitName === this.state.selected[1].fruitName) {
+        // Checks if the two fruits have different ids or are differnt images and cards
         if(this.state.selected[0].fruitId !== this.state.selected[1].fruitId){
           const tempFruits = this.state.fruits.filter(fruit => fruit.name !== this.state.selected[0].fruitName);
           // Checks if there are anymore rendered fruits left on the page
@@ -59,6 +64,8 @@ class App extends Component {
                 name={fruit.name}
                 image={fruit.image}
                 handleSelected={this.handleSelected}
+                handleUnselected={this.handleUnselected}
+                selected={this.state.selected}
               />
             ))}
           </div>

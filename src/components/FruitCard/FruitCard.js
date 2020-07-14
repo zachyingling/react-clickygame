@@ -15,23 +15,26 @@ class FruitCard extends React.Component {
     this.setState(prevState => ({ isFlipped: !prevState.isFlipped }));
   }
 
-  render(){
-    return (
-        <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
-          <div className="card" id="cardMain" onClick={() => { this.props.handleSelected(this.props.name, this.props.id); this.handleClick();}}>
-            <div className="img-container">
-              <img alt={this.props.name} src={process.env.PUBLIC_URL + "/front-of-poker-card.png"} height="150" width="170"/>
-            </div>
-          </div>
+  handleFrontCardComponent = () => {};
 
-          <div className="card" id="cardMain" onClick={() => { this.props.handleSelected(this.props.name, this.props.id); this.handleClick();}}>
-            <div className="img-container">
-              <img alt={this.props.name} src={process.env.PUBLIC_URL + "/" + this.props.image} height="150" width="170"/>
-            </div>
+  render(){
+    console.log(this.props);
+    return (
+      <ReactCardFlip isFlipped={this.state.isFlipped} flipDirection="vertical">
+        <div className="card" id="cardMain" onClick={() => { this.handleClick(); this.props.handleSelected(this.props.name, this.props.id);}}>
+          <div className="img-container">
+            <img alt={this.props.name} src={process.env.PUBLIC_URL + "/front-of-poker-card.png"} height="150" width="170"/>
           </div>
-        </ReactCardFlip>
-      );
-    }
+        </div>
+
+        <div className="card" id="cardMain" onClick={() => { this.handleClick(); this.props.handleUnselected(this.props.name, this.props.id);}}>
+          <div className="img-container">
+            <img alt={this.props.name} src={process.env.PUBLIC_URL + "/" + this.props.image} height="150" width="170"/>
+          </div>
+        </div>
+      </ReactCardFlip>
+    );
+  }
 }
 
 export default FruitCard;
