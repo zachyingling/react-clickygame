@@ -22,7 +22,10 @@ class App extends Component {
       fruitId: id,
       fruitName: name
     };
-    this.state.selected.push(clickedFruit);
+
+    const newStateArray = this.state.selected.slice();
+    newStateArray.push(clickedFruit);
+    this.setState({selected: newStateArray});
 
     // Makes sure two fruits are selected
     if(this.state.selected.length === 2){
